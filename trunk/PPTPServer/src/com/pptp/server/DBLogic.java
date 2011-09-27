@@ -149,8 +149,13 @@ public class DBLogic {
 				conn.rollback();
 			} catch (SQLException e1) {
 			}
+		} finally{
+			try {
+				conn.setAutoCommit(true);
+			} catch (SQLException e) {
+			}
+			DBAccess.close(conn);
 		}
-		DBAccess.close(conn);
 		return null;
 	}
 
