@@ -569,7 +569,7 @@ CREATE TABLE `radcheck` (
   `value` varchar(253) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `username` (`username`(32))
-) ENGINE=MyISAM AUTO_INCREMENT=104 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=107 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -578,7 +578,7 @@ CREATE TABLE `radcheck` (
 
 LOCK TABLES `radcheck` WRITE;
 /*!40000 ALTER TABLE `radcheck` DISABLE KEYS */;
-INSERT INTO `radcheck` VALUES (1,'test','Cleartext-Password',':=','1234'),(2,'yedawei','Cleartext-Password',':=','123456'),(3,'vpnnblc','Cleartext-Password',':=','tCDCeNzitq'),(4,'vpnnbrq6','Cleartext-Password',':=','LfwKfZlh'),(5,'vpnnblc8c','Cleartext-Password',':=','Y9JtG5SzbG'),(6,'vpnnbt6s3b','Cleartext-Password',':=','12zVot75O'),(7,'vpnnb1wdw','Cleartext-Password',':=','cIUCSiqo'),(8,'vpnnbvis3','Cleartext-Password',':=','48Vs6GeIs'),(9,'vpnnbpks1p','Cleartext-Password',':=','HAn9dBu2v'),(10,'vpnnbaj','Cleartext-Password',':=','4Rtx5tuTP'),(11,'vpnnbjukkn','Cleartext-Password',':=','uOxY2PWHy'),(12,'vpnnbjbz','Cleartext-Password',':=','ag9x95aTUE'),(13,'vpnnbkreu','Cleartext-Password',':=','2OgEqob9L'),(14,'vpnnbdv','Cleartext-Password',':=','8CEMuNmX8e'),(15,'vpnnbj6a','Cleartext-Password',':=','guppOaqj'),(16,'vpnnbyyhx','Cleartext-Password',':=','LFY9O4eR'),(17,'vpnnb9ar','Cleartext-Password',':=','MErM4EVHEr'),(18,'vpnnbpn','Cleartext-Password',':=','p6cekyhHZ'),(19,'vpnnbiekvl','Cleartext-Password',':=','dpw4RI1x'),(20,'vpnnbv3f9a','Cleartext-Password',':=','GLTcfMqeqj'),(21,'vpnnb0x','Cleartext-Password',':=','tDRcR8UAD2'),(22,'vpnnbnb','Cleartext-Password',':=','5rwyxve90'),(23,'vpnnbj90','Cleartext-Password',':=','HsbEAH46'),(24,'vpnnbvnfc','Cleartext-Password',':=','ewdfIrGs'),(25,'vpnnb76ok','Cleartext-Password',':=','3LgrDNqr2'),(26,'vpnnbc0a','Cleartext-Password',':=','tqDcVfzCYV'),(27,'vpnnbik40','Cleartext-Password',':=','39bXfCjofM'),(28,'vpnnb78','Cleartext-Password',':=','1q3EbiLj'),(29,'vpnnboajm','Cleartext-Password',':=','OYQlKihKD'),(30,'vpnnbj4un','Cleartext-Password',':=','3ZNrJwMXG'),(31,'vpnnbpr6i','Cleartext-Password',':=','Pd3RZxCUXh'),(32,'vpnnb45','Cleartext-Password',':=','lTNAcOJOJ'),(33,'vpnnbj4f','Cleartext-Password',':=','Z9CHIl7C0P'),(34,'vpnnbhpx1','Cleartext-Password',':=','DutxNuqo'),(35,'vpnnbz0ii','Cleartext-Password',':=','h9wXdMHc'),(36,'vpnnbdelet','Cleartext-Password',':=','5fOIP2WgmU'),(37,'vpnnbjvvqi','Cleartext-Password',':=','EOYV7OzC'),(38,'vpnnbx5s','Cleartext-Password',':=','DpxgPq0xN'),(39,'vpnnbtc3','Cleartext-Password',':=','0Ss8tyz9'),(40,'vpnnb6bf1k','Cleartext-Password',':=','957n3S4qkU'),(41,'vpnnb4g839','Cleartext-Password',':=','hviXR8aVb'),(42,'vpnnbhn','Cleartext-Password',':=','CNTFN5I6yt'),(43,'vpnnbi6','Cleartext-Password',':=','TVlRw05tN'),(44,'vpnnbiyl','Cleartext-Password',':=','HfGEWFaF'),(45,'vpnnbdc','Cleartext-Password',':=','G4hvtiVp'),(46,'vpnnbie1','Cleartext-Password',':=','6ln0u4wzUP'),(47,'vpnnbcdt0f','Cleartext-Password',':=','W6oeTDQwZ'),(48,'vpnnbyx','Cleartext-Password',':=','vTPDVaLI'),(49,'vpnnb3jql9','Cleartext-Password',':=','7zvOnGE0t8'),(50,'vpnnb9wi','Cleartext-Password',':=','nI1G6COQt'),(51,'vpnnbo1','Cleartext-Password',':=','fYtP65gjs'),(52,'vpnnb5hq4','Cleartext-Password',':=','GULzM5ks'),(53,'vpnnbto5v','Cleartext-Password',':=','Q1OnoWHj'),(54,'vpnnbgyzhp','Cleartext-Password',':=','MwnyNR3R'),(55,'vpnnbvwl91','Cleartext-Password',':=','2TZVoDJVs'),(56,'vpnnb7yf7','Cleartext-Password',':=','RSbvoLB17'),(57,'vpnnbcji','Cleartext-Password',':=','QRkK62JA'),(58,'vpnnbwk','Cleartext-Password',':=','aA6ju3yEy'),(59,'vpnnbeq','Cleartext-Password',':=','ZTbwwLSI'),(60,'vpnnbmw2','Cleartext-Password',':=','3SBewE5GDh'),(61,'vpnnbfqwn','Cleartext-Password',':=','5d7NtwJu'),(62,'vpnnb8smfx','Cleartext-Password',':=','sNXchPU5Z'),(63,'vpnnbyf','Cleartext-Password',':=','kSwVU0UUlK'),(64,'vpnnbrq','Cleartext-Password',':=','RUe6sH3qn'),(65,'vpnnbj6jy','Cleartext-Password',':=','4ZVzvhPq'),(66,'vpnnblvga','Cleartext-Password',':=','R4vYnsXfE'),(67,'vpnnby8b','Cleartext-Password',':=','telMKiEr'),(68,'vpnnb44e','Cleartext-Password',':=','Ek11pnG4di'),(69,'vpnnbr5','Cleartext-Password',':=','ouRM0Q4l'),(70,'vpnnbgggkh','Cleartext-Password',':=','Uryv6xqU'),(71,'vpnnbn8o','Cleartext-Password',':=','qZyvQ7lB'),(72,'vpnnbfhs','Cleartext-Password',':=','r8kauNwf'),(73,'vpnnbk5','Cleartext-Password',':=','0rYz25x7Lv'),(74,'vpnnbit1ga','Cleartext-Password',':=','BKEOvSiOJ'),(75,'vpnnbguqjf','Cleartext-Password',':=','Z21JsaUgwd'),(76,'vpnnbrz','Cleartext-Password',':=','WDGPxfYwX'),(77,'vpnnbp8','Cleartext-Password',':=','RgDOa4IM'),(78,'vpnnbnjca','Cleartext-Password',':=','2Iju8u9eV'),(79,'vpnnblw959','Cleartext-Password',':=','eSoFWg9DV1'),(80,'vpnnbnk','Cleartext-Password',':=','89jONMEm'),(81,'vpnnbve7t','Cleartext-Password',':=','OQJCaenYt'),(82,'vpnnbeip','Cleartext-Password',':=','YgxojuJ6s'),(83,'vpnnbdy','Cleartext-Password',':=','skab1Y7jl'),(84,'vpnnb78x','Cleartext-Password',':=','2wQP2jedo'),(85,'vpnnbu52r5','Cleartext-Password',':=','ZxE81D9mrz'),(86,'vpnnbj67','Cleartext-Password',':=','SJmOh7gucl'),(87,'vpnnbeyw6i','Cleartext-Password',':=','JKv7hKCU'),(88,'vpnnb9jbv','Cleartext-Password',':=','1MKNl57gc'),(89,'vpnnbnw9s2','Cleartext-Password',':=','vwSbkbMa'),(90,'vpnnbtctl','Cleartext-Password',':=','5iIBWhXk'),(91,'vpnnb9ca','Cleartext-Password',':=','aGAH8Sn8g'),(92,'vpnnb32','Cleartext-Password',':=','eH8Nx2E1'),(93,'vpnnbvpq6','Cleartext-Password',':=','SxT58YnBu'),(94,'vpnnbsdok','Cleartext-Password',':=','4yFxOledj'),(95,'vpnnb96pd','Cleartext-Password',':=','YNWsQ0Pz'),(96,'vpnnb4a6s','Cleartext-Password',':=','4B9cqEmUD'),(97,'vpnnb1nn','Cleartext-Password',':=','1W9ikOb22'),(98,'vpnnbaegy1','Cleartext-Password',':=','w0pAa2VUk'),(99,'vpnnbnaj','Cleartext-Password',':=','k4Z7PUCWnn'),(100,'vpnnb5sqh','Cleartext-Password',':=','OhQG6kpwr'),(101,'vpnnbqjjq','Cleartext-Password',':=','FlbcMf6V4Z'),(102,'vpnnboyg9','Cleartext-Password',':=','W7w8kJAyU');
+INSERT INTO `radcheck` VALUES (1,'test','Cleartext-Password',':=','1234'),(2,'yedawei','Cleartext-Password',':=','123456'),(3,'vpnnblc','Cleartext-Password',':=','tCDCeNzitq'),(4,'vpnnbrq6','Cleartext-Password',':=','LfwKfZlh'),(5,'vpnnblc8c','Cleartext-Password',':=','Y9JtG5SzbG'),(6,'vpnnbt6s3b','Cleartext-Password',':=','12zVot75O'),(7,'vpnnb1wdw','Cleartext-Password',':=','cIUCSiqo'),(8,'vpnnbvis3','Cleartext-Password',':=','48Vs6GeIs'),(9,'vpnnbpks1p','Cleartext-Password',':=','HAn9dBu2v'),(10,'vpnnbaj','Cleartext-Password',':=','4Rtx5tuTP'),(11,'vpnnbjukkn','Cleartext-Password',':=','uOxY2PWHy'),(12,'vpnnbjbz','Cleartext-Password',':=','ag9x95aTUE'),(13,'vpnnbkreu','Cleartext-Password',':=','2OgEqob9L'),(14,'vpnnbdv','Cleartext-Password',':=','8CEMuNmX8e'),(15,'vpnnbj6a','Cleartext-Password',':=','guppOaqj'),(16,'vpnnbyyhx','Cleartext-Password',':=','LFY9O4eR'),(17,'vpnnb9ar','Cleartext-Password',':=','MErM4EVHEr'),(18,'vpnnbpn','Cleartext-Password',':=','p6cekyhHZ'),(19,'vpnnbiekvl','Cleartext-Password',':=','dpw4RI1x'),(20,'vpnnbv3f9a','Cleartext-Password',':=','GLTcfMqeqj'),(21,'vpnnb0x','Cleartext-Password',':=','tDRcR8UAD2'),(22,'vpnnbnb','Cleartext-Password',':=','5rwyxve90'),(23,'vpnnbj90','Cleartext-Password',':=','HsbEAH46'),(24,'vpnnbvnfc','Cleartext-Password',':=','ewdfIrGs'),(25,'vpnnb76ok','Cleartext-Password',':=','3LgrDNqr2'),(26,'vpnnbc0a','Cleartext-Password',':=','tqDcVfzCYV'),(27,'vpnnbik40','Cleartext-Password',':=','39bXfCjofM'),(28,'vpnnb78','Cleartext-Password',':=','1q3EbiLj'),(29,'vpnnboajm','Cleartext-Password',':=','OYQlKihKD'),(30,'vpnnbj4un','Cleartext-Password',':=','3ZNrJwMXG'),(31,'vpnnbpr6i','Cleartext-Password',':=','Pd3RZxCUXh'),(32,'vpnnb45','Cleartext-Password',':=','lTNAcOJOJ'),(33,'vpnnbj4f','Cleartext-Password',':=','Z9CHIl7C0P'),(34,'vpnnbhpx1','Cleartext-Password',':=','DutxNuqo'),(35,'vpnnbz0ii','Cleartext-Password',':=','h9wXdMHc'),(36,'vpnnbdelet','Cleartext-Password',':=','5fOIP2WgmU'),(37,'vpnnbjvvqi','Cleartext-Password',':=','EOYV7OzC'),(38,'vpnnbx5s','Cleartext-Password',':=','DpxgPq0xN'),(39,'vpnnbtc3','Cleartext-Password',':=','0Ss8tyz9'),(40,'vpnnb6bf1k','Cleartext-Password',':=','957n3S4qkU'),(41,'vpnnb4g839','Cleartext-Password',':=','hviXR8aVb'),(42,'vpnnbhn','Cleartext-Password',':=','CNTFN5I6yt'),(43,'vpnnbi6','Cleartext-Password',':=','TVlRw05tN'),(44,'vpnnbiyl','Cleartext-Password',':=','HfGEWFaF'),(45,'vpnnbdc','Cleartext-Password',':=','G4hvtiVp'),(46,'vpnnbie1','Cleartext-Password',':=','6ln0u4wzUP'),(47,'vpnnbcdt0f','Cleartext-Password',':=','W6oeTDQwZ'),(48,'vpnnbyx','Cleartext-Password',':=','vTPDVaLI'),(49,'vpnnb3jql9','Cleartext-Password',':=','7zvOnGE0t8'),(50,'vpnnb9wi','Cleartext-Password',':=','nI1G6COQt'),(51,'vpnnbo1','Cleartext-Password',':=','fYtP65gjs'),(52,'vpnnb5hq4','Cleartext-Password',':=','GULzM5ks'),(53,'vpnnbto5v','Cleartext-Password',':=','Q1OnoWHj'),(54,'vpnnbgyzhp','Cleartext-Password',':=','MwnyNR3R'),(55,'vpnnbvwl91','Cleartext-Password',':=','2TZVoDJVs'),(56,'vpnnb7yf7','Cleartext-Password',':=','RSbvoLB17'),(57,'vpnnbcji','Cleartext-Password',':=','QRkK62JA'),(58,'vpnnbwk','Cleartext-Password',':=','aA6ju3yEy'),(59,'vpnnbeq','Cleartext-Password',':=','ZTbwwLSI'),(60,'vpnnbmw2','Cleartext-Password',':=','3SBewE5GDh'),(61,'vpnnbfqwn','Cleartext-Password',':=','5d7NtwJu'),(62,'vpnnb8smfx','Cleartext-Password',':=','sNXchPU5Z'),(63,'vpnnbyf','Cleartext-Password',':=','kSwVU0UUlK'),(64,'vpnnbrq','Cleartext-Password',':=','RUe6sH3qn'),(65,'vpnnbj6jy','Cleartext-Password',':=','4ZVzvhPq'),(66,'vpnnblvga','Cleartext-Password',':=','R4vYnsXfE'),(67,'vpnnby8b','Cleartext-Password',':=','telMKiEr'),(68,'vpnnb44e','Cleartext-Password',':=','Ek11pnG4di'),(69,'vpnnbr5','Cleartext-Password',':=','ouRM0Q4l'),(70,'vpnnbgggkh','Cleartext-Password',':=','Uryv6xqU'),(71,'vpnnbn8o','Cleartext-Password',':=','qZyvQ7lB'),(72,'vpnnbfhs','Cleartext-Password',':=','r8kauNwf'),(73,'vpnnbk5','Cleartext-Password',':=','0rYz25x7Lv'),(74,'vpnnbit1ga','Cleartext-Password',':=','BKEOvSiOJ'),(75,'vpnnbguqjf','Cleartext-Password',':=','Z21JsaUgwd'),(76,'vpnnbrz','Cleartext-Password',':=','WDGPxfYwX'),(77,'vpnnbp8','Cleartext-Password',':=','RgDOa4IM'),(78,'vpnnbnjca','Cleartext-Password',':=','2Iju8u9eV'),(79,'vpnnblw959','Cleartext-Password',':=','eSoFWg9DV1'),(80,'vpnnbnk','Cleartext-Password',':=','89jONMEm'),(81,'vpnnbve7t','Cleartext-Password',':=','OQJCaenYt'),(82,'vpnnbeip','Cleartext-Password',':=','YgxojuJ6s'),(83,'vpnnbdy','Cleartext-Password',':=','skab1Y7jl'),(84,'vpnnb78x','Cleartext-Password',':=','2wQP2jedo'),(85,'vpnnbu52r5','Cleartext-Password',':=','ZxE81D9mrz'),(86,'vpnnbj67','Cleartext-Password',':=','SJmOh7gucl'),(87,'vpnnbeyw6i','Cleartext-Password',':=','JKv7hKCU'),(88,'vpnnb9jbv','Cleartext-Password',':=','1MKNl57gc'),(89,'vpnnbnw9s2','Cleartext-Password',':=','vwSbkbMa'),(90,'vpnnbtctl','Cleartext-Password',':=','5iIBWhXk'),(91,'vpnnb9ca','Cleartext-Password',':=','aGAH8Sn8g'),(92,'vpnnb32','Cleartext-Password',':=','eH8Nx2E1'),(93,'vpnnbvpq6','Cleartext-Password',':=','SxT58YnBu'),(94,'vpnnbsdok','Cleartext-Password',':=','4yFxOledj'),(95,'vpnnb96pd','Cleartext-Password',':=','YNWsQ0Pz'),(96,'vpnnb4a6s','Cleartext-Password',':=','4B9cqEmUD'),(97,'vpnnb1nn','Cleartext-Password',':=','1W9ikOb22'),(98,'vpnnbaegy1','Cleartext-Password',':=','w0pAa2VUk'),(99,'vpnnbnaj','Cleartext-Password',':=','k4Z7PUCWnn'),(100,'vpnnb5sqh','Cleartext-Password',':=','OhQG6kpwr'),(101,'vpnnbqjjq','Cleartext-Password',':=','FlbcMf6V4Z'),(102,'vpnnboyg9','Cleartext-Password',':=','W7w8kJAyU'),(104,'6333453','Cleartext-Password',':=','5746074830'),(105,'5240668','Cleartext-Password',':=','900384630'),(106,'5956460','Cleartext-Password',':=','361499801');
 /*!40000 ALTER TABLE `radcheck` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -743,6 +743,7 @@ CREATE TABLE `radusergroup` (
 
 LOCK TABLES `radusergroup` WRITE;
 /*!40000 ALTER TABLE `radusergroup` DISABLE KEYS */;
+INSERT INTO `radusergroup` VALUES ('6333453','vpnnb',1),('5240668','vpnnb',1),('5956460','vpnnb',1);
 /*!40000 ALTER TABLE `radusergroup` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -796,7 +797,7 @@ CREATE TABLE `tb_complete_order` (
   `create_time` datetime NOT NULL,
   `complete_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -805,6 +806,7 @@ CREATE TABLE `tb_complete_order` (
 
 LOCK TABLES `tb_complete_order` WRITE;
 /*!40000 ALTER TABLE `tb_complete_order` DISABLE KEYS */;
+INSERT INTO `tb_complete_order` VALUES (1,'2011-09-27-15-31-0001-01-387',1,1,'2011-09-27 15:31:10','2011-09-27 15:31:10'),(2,'2011-09-27-15-33-0001-01-741',1,1,'2011-09-27 15:33:05','2011-09-27 15:33:05'),(3,'2011-09-27-15-39-0001-01-770',1,1,'2011-09-27 15:39:30','2011-09-27 15:39:30'),(4,'2011-09-27-15-42-0001-01-717',1,1,'2011-09-27 15:42:31','2011-09-27 15:42:40'),(5,'2011-09-27-15-44-0001-01-181',1,1,'2011-09-27 15:44:11','2011-09-27 15:44:14'),(6,'2011-09-27-15-45-0001-01-837',1,1,'2011-09-27 15:45:09','2011-09-27 15:45:09'),(7,'2011-09-27-15-45-0001-01-716',1,1,'2011-09-27 15:45:49','2011-09-27 15:45:49'),(8,'2011-09-27-15-48-0001-01-803',1,1,'2011-09-27 15:48:00','2011-09-27 15:48:00'),(9,'2011-09-27-15-49-0001-01-037',1,1,'2011-09-27 15:49:40','2011-09-27 15:49:40'),(10,'2011-09-27-16-53-0002-01-912',2,1,'2011-09-27 16:53:25','2011-09-27 16:53:25'),(11,'2011-09-27-16-55-0003-01-541',3,1,'2011-09-27 16:55:37','2011-09-27 16:55:48'),(12,'2011-09-27-17-01-0003-01-881',3,1,'2011-09-27 17:01:06','2011-09-27 17:01:06'),(13,'2011-09-27-18-08-0003-01-695',3,1,'2011-09-27 18:08:34','2011-09-27 18:08:39');
 /*!40000 ALTER TABLE `tb_complete_order` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -834,6 +836,31 @@ LOCK TABLES `tb_expire` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `tb_invite_code`
+--
+
+DROP TABLE IF EXISTS `tb_invite_code`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb_invite_code` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `code` varchar(32) NOT NULL,
+  `use_user_id` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb_invite_code`
+--
+
+LOCK TABLES `tb_invite_code` WRITE;
+/*!40000 ALTER TABLE `tb_invite_code` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tb_invite_code` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `tb_login_status`
 --
 
@@ -844,8 +871,10 @@ CREATE TABLE `tb_login_status` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
   `client_id` varchar(64) NOT NULL,
+  `device_id` varchar(128) NOT NULL,
+  `login_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -854,6 +883,7 @@ CREATE TABLE `tb_login_status` (
 
 LOCK TABLES `tb_login_status` WRITE;
 /*!40000 ALTER TABLE `tb_login_status` DISABLE KEYS */;
+INSERT INTO `tb_login_status` VALUES (1,1,'z1onh9jteyc29q1jlaosh5htgop0z1c0ko9','device-007-001','2011-09-27 15:29:53'),(2,1,'00b7vy0imi07wl1yj0tjj6dj9vw0z17khy6','device-007-001','2011-09-27 15:31:10'),(3,1,'025mthrwsicw0y2pa7scqmrs5ym0z86qhjj','device-007-001','2011-09-27 15:33:05'),(4,1,'00vbrrdfthgw5y27m80111q2iv8z11ff9e3','device-007-001','2011-09-27 15:39:30'),(5,1,'z1vo3w2ek1ixeg1qexwn5t4a3tu00ngwblk','device-007-001','2011-09-27 15:42:31'),(6,1,'z20xe8a8el1b0x1qyng7j768lrf010v6s8j','device-007-001','2011-09-27 15:44:11'),(7,1,'z10nhkmb08a9891lq1yt7sjgann00n2xj2x','device-007-001','2011-09-27 15:45:09'),(8,1,'z1896j5356a2wp1jsnrrvya8gg400ft4jts','device-007-001','2011-09-27 15:45:49'),(9,1,'024pr69tgnty7k2gan04xqxlkrg00bf9qyt','device-007-001','2011-09-27 15:48:00'),(10,1,'01ymtkb11qbn2y1w285rs5i8xr1013bltkb','device-007-001','2011-09-27 15:49:40'),(11,2,'0zl4p5lttb9ioy2fjsldgsj63l80z380xcc','device-007-001','2011-09-27 16:53:24'),(12,3,'z1fqw60xr85j8r29tt8tees829f0zy8af8t','device-007-001','2011-09-27 16:55:37'),(13,3,'z2gfn92eflj90h2cfi19taci1yb0zuw13k5','device-007-001','2011-09-27 17:01:06'),(14,3,'00zxfky4utaolf2kblrtkrjle8200i8wq5t','device-007-001','2011-09-27 18:08:33');
 /*!40000 ALTER TABLE `tb_login_status` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -871,7 +901,7 @@ CREATE TABLE `tb_new_order` (
   `order_type` int(11) NOT NULL,
   `create_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -895,8 +925,10 @@ CREATE TABLE `tb_user` (
   `email` varchar(32) NOT NULL,
   `device_id` varchar(64) NOT NULL,
   `reg_time` datetime NOT NULL,
+  `user_name` varchar(45) NOT NULL,
+  `pwd` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -905,6 +937,7 @@ CREATE TABLE `tb_user` (
 
 LOCK TABLES `tb_user` WRITE;
 /*!40000 ALTER TABLE `tb_user` DISABLE KEYS */;
+INSERT INTO `tb_user` VALUES (1,'yedawei@snaplore.com','device-007-001','2011-09-27 15:26:16','6333453','5746074830'),(2,'yedawei001@snaplore.com','device-007-001','2011-09-27 16:53:24','5240668','900384630'),(3,'yedawei002@snaplore.com','device-007-001','2011-09-27 16:55:37','5956460','361499801');
 /*!40000 ALTER TABLE `tb_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1043,4 +1076,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2011-09-23 18:13:29
+-- Dump completed on 2011-09-27 19:21:24
