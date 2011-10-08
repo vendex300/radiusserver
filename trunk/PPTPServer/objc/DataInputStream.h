@@ -29,13 +29,4 @@
 -(NSDate *) readDate;
 -(u_int64_t) readLong;
 -(void)reset;
--(Page *) readViewPage;
--(Trip *) readTrip;
-
--(id) readByType:(enum DataType) type;
--(NSArray *) readArrayByType:(enum DataType) type;
-
--(ViewSpot*) readViewSpot;
--(User *) readUser;
--(Comment *)readComment;
 @end

@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 
+import com.pptp.bean.InviteCode;
 import com.pptp.bean.Order;
 import com.pptp.bean.User;
 
@@ -149,13 +150,22 @@ public class DBLogic {
 				conn.rollback();
 			} catch (SQLException e1) {
 			}
-		} finally{
+		} finally {
 			try {
 				conn.setAutoCommit(true);
 			} catch (SQLException e) {
 			}
 			DBAccess.close(conn);
 		}
+		return null;
+	}
+
+	public static InviteCode[] getInviteCode(String clientID) {
+		// @ TODO
+		return null;
+	}
+
+	public static User userInviteCode(String clientID, String inviteCode) {
 		return null;
 	}
 

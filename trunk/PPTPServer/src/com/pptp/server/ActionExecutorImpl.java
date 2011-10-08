@@ -2,6 +2,7 @@ package com.pptp.server;
 
 import java.io.IOException;
 
+import com.pptp.bean.InviteCode;
 import com.pptp.bean.User;
 import com.pptp.share.StreamPrinter;
 import com.pptp.share.StreamReader;
@@ -95,7 +96,15 @@ public class ActionExecutorImpl implements ActionExecutor {
 	public void getInvitationCode(StreamReader reader, StreamPrinter printer) {
 		try {
 			String clientID = reader.readString();
-
+			InviteCode[] codeList = DBLogic.getInviteCode(clientID);
+			if(codeList != null){
+				printSuccess(printer);
+				printer.printInt(codeList.length);
+				for(InviteCode code : codeList){
+					printer.printString(code.getCode());
+				}
+				return;
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -106,6 +115,11 @@ public class ActionExecutorImpl implements ActionExecutor {
 		try {
 			String clientID = reader.readString();
 			String invitationCode = reader.readString();
+			User user = DBLogic.userInviteCode(clientID, invitationCode);
+			if(user != null){
+				printSuccess(printer);
+				return;
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -114,7 +128,7 @@ public class ActionExecutorImpl implements ActionExecutor {
 
 	public void getPurchaseList(StreamReader reader, StreamPrinter printer) {
 		try {
-			String clientID = reader.readString();
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

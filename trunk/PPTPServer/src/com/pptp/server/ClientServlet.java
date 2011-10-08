@@ -47,7 +47,6 @@ public class ClientServlet extends HttpServlet {
 					StreamPrinter.class };
 			for (Method m : method) {
 				Class<?>[] types = m.getParameterTypes();
-
 				if (compareTypes(types, paramTypes)) {
 					methodMap.put(m.getName(), m);
 					System.out.println("put method : " + m.getName());
@@ -68,23 +67,18 @@ public class ClientServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("post");
 		process(request, response);
 	}
 
 	private void process(HttpServletRequest request,
 			HttpServletResponse response) {
 		try {
-
 			StreamReader reader = new StreamReader(request.getInputStream());
-
 			int version = reader.readInt();
 			System.out.println("version : " + version);
-
 			if (version != 100) {
 				return;
 			}
-
 			byte[] data = reader.readData();
 			data = AES.decrypt(data, ENC_KEY);
 			reader = new StreamReader(new ByteArrayInputStream(data));

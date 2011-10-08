@@ -36,12 +36,10 @@ public class AES {
 				return cipher.doFinal(sSrc);
 			} catch (Exception e) {
 				e.printStackTrace();
-				// System.out.println(e.toString());
 				return null;
 			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
-			// System.out.println(ex.toString());
 			return null;
 		}
 	}
