@@ -11,8 +11,8 @@
 
 //#import <Foundation/FoundaNSData *SNDecode(NSData *input,NSString *key)tion.h>
 
-NSData *SNEncode(NSData *input ,NSString *key);
+NSData *CEncode(NSData *input ,NSString *key);
 
-NSData *SNDecode(NSData *input,NSString *key);
+NSData *CDecode(NSData *input,NSString *key);
 
 #endif

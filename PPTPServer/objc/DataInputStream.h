@@ -7,11 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Page.h"
-#import "ViewSpot.h"
-#import "User.h"
-#import "Comment.h"
-#import "DataType.h"
+
 
 @interface DataInputStream : NSObject {
     NSData * data;
@@ -28,5 +24,10 @@
 -(double) readDouble;
 -(NSDate *) readDate;
 -(u_int64_t) readLong;
+
+-(NSData *) readData;
+//-(NSData *) readData;
+
 -(void)reset;
+
 @end
