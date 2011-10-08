@@ -7,12 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Trip.h"
-#import "Page.h"
-#import "ViewSpot.h"
-#import "User.h"
-#import "Comment.h"
-#import "DataType.h"
 
 @interface DataOutputStream : NSObject {
     NSMutableData * byteData;
@@ -29,5 +23,7 @@
 -(void) writeDate:(NSDate*)date;
 -(void) writeDouble:(double)value;
 -(void) writeFile:(NSString*)file;
+
+-(void) writeFullData:(NSData*)data;
 
 @end

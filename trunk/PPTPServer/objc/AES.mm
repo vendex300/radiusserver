@@ -77,7 +77,7 @@ static void dec(NSData * input, NSString* key,void * buffer,size_t *bufferSize) 
     return ;
 }
 
-NSData *SNEncode(NSData *input ,NSString *key) {
+NSData *CEncode(NSData *input ,NSString *key) {
     
 	size_t bufferSize = [input length] + kCCBlockSizeAES128;
 	void *buffer = malloc(bufferSize);
@@ -87,7 +87,7 @@ NSData *SNEncode(NSData *input ,NSString *key) {
 	return output;
 }
 
-NSData *SNDecode(NSData *input,NSString *key) {
+NSData *CDecode(NSData *input,NSString *key) {
     size_t bufferSize = [input length] + kCCBlockSizeAES128;
 	void *buffer = malloc(bufferSize);
 	dec(input,key,buffer, &bufferSize);

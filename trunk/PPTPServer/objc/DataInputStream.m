@@ -7,8 +7,8 @@
 //
 
 #import "DataInputStream.h"
-#import "Debug.h"
-#import "ReuseUtil.h"
+
+#define debug(__x__) NSLog(__x__)
 
 @implementation DataInputStream
 @synthesize data;
@@ -55,8 +55,9 @@
         curIndex += len;
         return str;
     }
-    return  nil;
+    return  [NSString stringWithString:@""];
 }
+
 -(u_int8_t) readChar{
 #if DEBUG
     if(!data){
@@ -67,6 +68,16 @@
     u_char result = bytes[curIndex];
     curIndex++;
     return  result;
+}
+
+-(NSData *) readData {
+    int len = [self readInt];
+    if(len){
+        NSData * result = [data subdataWithRange:NSMakeRange(curIndex, len)];
+        curIndex += len;
+        return result;
+    }
+    return nil;
 }
 
 -(NSDate *) readDate{
@@ -112,6 +123,7 @@
     return [[self readString] doubleValue];
 }
 
+
 -(void)reset{
     curIndex = 0;
 }
@@ -120,5 +132,6 @@
     self.data = nil;
     [super dealloc];
 }
+
 
 @end
