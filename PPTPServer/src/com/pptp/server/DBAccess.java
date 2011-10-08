@@ -18,7 +18,7 @@ public class DBAccess {
 			Class.forName("com.mysql.jdbc.Driver");
 			return DriverManager.getConnection(
 					"jdbc:mysql://192.168.1.202:3306/radius", "root",
-					"20101010");
+					"123456");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {

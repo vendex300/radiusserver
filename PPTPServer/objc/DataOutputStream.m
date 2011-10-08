@@ -119,40 +119,6 @@
     }
 }
 
--(void) writeTrip:(Trip*)trip{
-    [self writeLong:trip.tripID];
-    [self writeString:trip.title];
-    [self writeInt:trip.pageCount];
-}
-
--(void) writePage:(Page *)page{
-    [self writeInt:page.number];
-    [self writeChar:page.type];
-    [self writeChar:page.photoCatagory];
-    [self writeDate:page.displayTime];
-    [self writeDouble:page.photoLongitude];
-    [self writeDouble:page.photoLatitude];
-    [self writeString:page.title];
-    [self writeString:page.description];
-    [self writeString:page.photoFile];
-    [self writeInt:page.photoWidth];
-    [self writeInt:page.photoHeight];
-    [self writeChar:page.recommendType];
-    [self writeInt:page.accuracy];
-}
-
--(void) writeViewSpot:(ViewSpot*)viewSpot {
-    
-}
-
--(void) writeUser:(User *)user {
-    
-}
-
--(void) writeComment:(Comment*)comment {
-    
-}
-
 @end
 
 

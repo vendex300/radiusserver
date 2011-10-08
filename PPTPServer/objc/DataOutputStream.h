@@ -29,12 +29,5 @@
 -(void) writeDate:(NSDate*)date;
 -(void) writeDouble:(double)value;
 -(void) writeFile:(NSString*)file;
--(void) writeTrip:(Trip*)trip;
--(void) writePage:(Page *)page;
--(void) writeData:(NSData *)data;
--(void) writeFullData:(NSData*)data;
--(void) writeViewSpot:(ViewSpot*)viewSpot;
--(void) writeUser:(User *)user;
--(void) writeComment:(Comment*)comment;
 
 @end
